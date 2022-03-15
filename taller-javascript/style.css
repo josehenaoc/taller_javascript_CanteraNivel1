@@ -1,0 +1,128 @@
+* {
+    background-color: antiquewhite;
+    text-align: center; 
+    border-radius: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+}
+
+#bodyid{
+    height: 70px;
+    image-orientation: from-image;
+    border-image: 10px;
+    justify-content: center;
+}
+
+button :hover{
+    background-color: transparent;
+}
+
+
+#btn_red{
+    position: center;
+    top:270px;
+    left: 370px;
+    background-color: red;
+}
+
+#btn_blue{
+    position: center;
+    top:270px;
+    left: 370px;
+    background-color: blue;
+}
+
+#btn_yellow{
+    position: center;
+    top:270px;
+    left: 370px;
+    background-color: yellow;
+}
+
+img{
+    border:10px;
+    display: block;
+    margin: 30px auto;
+    width: 180px;
+    filter:
+    drop-shadow(5px 5px 10px black);
+}
+
+h1{
+    font-size: 25px;
+}
+    
+div {
+    border-image-source: none;
+    border-bottom-style: 20px;
+    border-bottom-color: blue;
+    text-align: center; 
+}
+
+
+li{
+    list-style: none;
+    border-bottom-style: 20px;
+    border-bottom-color:gold;
+    background-color:bisque;
+    border: 20px solid bisque;
+    border-radius: 8px;
+}
+
+button{
+    
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: all 500ms ease;
+    z-index: 0;
+    text-align: center;
+}
+  
+.container{
+
+    position: relative;
+    background-size: cover;
+}
+
+.home{
+    text-align: left;
+    border-bottom-style: 20px;
+    border-bottom-color: blue;
+    border-radius: 10px;
+}
+.hoja_vida{
+    text-align: left;
+    border-bottom-style: 20px;
+    border-bottom-color: blue;
+}
+
+.experiencia_l{
+    text-align: left;
+}
+
+.referencias_p{
+    text-align: right;
+}
+
+.referencias_f{
+    text-align: right;
+}
+
+.referencias_per{
+    text-align: left;
+}
+
+.estudios_r{
+    text-align: right;
+}
+a:hover{
+    background-color: seashell;
+}
+
+.referencias_far{
+    text-align: left;
+}
+
+#titulo1{
+    display: block;
+}
